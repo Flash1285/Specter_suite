@@ -64,13 +64,13 @@ Make sure you have [Python 3](https://www.python.org/downloads/) and [Git](https
 
 ### 2. Installation & Setup
 
-**1. Clone the Repository:**
+* **1. Clone the Repository:**
 ```bash
 git clone [https://github.com/YOUR-USERNAME/Spectre-Suite.git](https://github.com/YOUR-USERNAME/Spectre-Suite.git)
 cd Spectre-Suite
 
 ```
-**2. Set up a Virtual Environment (Recommended):**
+* **2. Set up a Virtual Environment (Recommended):**
 ```bash
 # Create a virtual environment
 python -m venv venv
@@ -81,12 +81,12 @@ venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
 ```
-**3. Install Dependencies: The requirements.txt file is located in the titan-intel sub-directory.**
+* **3. Install Dependencies: The requirements.txt file is located in the titan-intel sub-directory.**
 ```bash
 pip install -r titan-intel/requirements.txt
 pip install flask
 ```
-**4. Run the Application:**
+* **4. Run the Application:**
 ```bash
 # Navigate into the dashboard directory
 cd Dashboard
@@ -94,7 +94,7 @@ cd Dashboard
 # Run the Flask app
 python app.py
 ```
-**5. Access the Dashboard: Open your browser and go to: http://127.0.0.1:5000**
+* **5. Access the Dashboard: Open your browser and go to: http://127.0.0.1:5000**
 
 ---
 
