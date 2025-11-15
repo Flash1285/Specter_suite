@@ -98,6 +98,56 @@ python app.py
 
 ---
 
+## 📂 Repository Structure
+```
+Spectre-Suite/   
+|
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+│
+├── Dashboard/    
+│   ├── app.py
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   ├── js/
+│   │   │   └── app.js
+│   │   ├── img/
+│   │   │   └── aot_logo.png
+│   │   └── reports/
+│   │       ├──  Reports will be saved here...
+│   │       └── .gitkeep       
+│   └── templates/
+│       ├── base.html
+│       ├── index.html
+│       ├── live_feed.html
+│       ├── reports.html
+│       ├── scans.html
+│       ├── scan_directory.html
+│       ├── scan_domain.html
+│       ├── scan_email.html
+│       ├── scan_port.html
+│       ├── scan_social.html
+│       └── scan_tech.html
+│
+└── titan-intel/             
+    ├── directory_scanner.py
+    ├── domain_recon.py
+    ├── email_intel.py
+    ├── port_scanner.py
+    ├── social_scout.py
+    ├── tech_enumerator.py
+    ├── threat_intel.py
+    └── wordlists/
+        ├── common_paths.txt
+        ├── social_sites.json
+        └── subdomains.txt
+```
+
+---
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
