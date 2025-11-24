@@ -6,6 +6,7 @@
   <p>
     <a href="https://www.python.org/"><img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white"></a>
     <a href="https://flask.palletsprojects.com/"><img alt="Flask" src="https://img.shields.io/badge/Flask-2.0%2B-black?logo=flask&logoColor=white"></a>
+    <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
     <img alt="Status" src="https://img.shields.io/badge/Status-Active-success?logo=github&logoColor=white">
   </p>
 </div>
