@@ -4,7 +4,7 @@ import time
 
 # --- REPORT PATHS ---
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-DASHBOARD_DIR = os.path.join(CURRENT_DIR, '..', 'Shiganshina_Dashboard', 'static', 'reports')
+DASHBOARD_DIR = os.path.join(CURRENT_DIR, '..', 'Dashboard', 'static', 'reports')
 
 # --- NEW API ---
 XPOSED_API_URL = "https://xposedornot.com/api_v1/exposed/"

@@ -1,0 +1,6 @@
+--- Directory Scan Report ---
+Time: 2025-11-24 12:12:23
+Target URL: https://example.com
+--------------------------------------
+
+No common directories or files found.

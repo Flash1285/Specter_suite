@@ -6,7 +6,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-DASHBOARD_DIR = os.path.join(CURRENT_DIR, '..', 'Shiganshina_Dashboard', 'static', 'reports')
+DASHBOARD_DIR = os.path.join(CURRENT_DIR, '..', 'Dashboard', 'static', 'reports')
 SUBDOMAINS_FILE = os.path.join(CURRENT_DIR, 'wordlists', 'subdomains.txt')
 
 DNS_RECORD_TYPES = ['A', 'AAAA', 'MX', 'TXT', 'NS', 'CNAME', 'SOA', 'SRV']

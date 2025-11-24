@@ -13,7 +13,7 @@ except ImportError:
     sys.exit(1)
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-DASHBOARD_DIR = os.path.join(CURRENT_DIR, '..', 'Shiganshina_Dashboard', 'static', 'reports')
+DASHBOARD_DIR = os.path.join(CURRENT_DIR, '..', 'Dashboard', 'static', 'reports')
 
 def parse_ports(port_range):
     if not port_range:

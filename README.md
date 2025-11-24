@@ -6,7 +6,7 @@
   <p>
     <a href="https://www.python.org/"><img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white"></a>
     <a href="https://flask.palletsprojects.com/"><img alt="Flask" src="https://img.shields.io/badge/Flask-2.0%2B-black?logo=flask&logoColor=white"></a>
-    <a href="https://github.com/YOUR-USERNAME/Spectre-Suite/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg"></a>
+    <img alt="Status" src="https://img.shields.io/badge/Status-Active-success?logo=github&logoColor=white">
   </p>
 </div>
 
@@ -17,6 +17,8 @@
 **Spectre Suite** is a centralized web dashboard designed for security professionals, researchers, and hobbyists. It replaces the need to run dozens of separate command-line scripts by integrating a powerful suite of OSINT and reconnaissance tools into a single, clean "glassmorphism" UI.
 
 This dashboard allows you to gather intelligence on networks, domains, users, and websites, and then automatically cross-references your findings with live threat data.
+
+> **Note:** This project is a collaborative effort, combining expertise in cybersecurity, web development, and OSINT techniques to create a comprehensive reconnaissance platform.
 
 ## 📸 Project Gallery
 
@@ -66,9 +68,8 @@ Make sure you have [Python 3](https://www.python.org/downloads/) and [Git](https
 
 * **1. Clone the Repository:**
 ```bash
-git clone [https://github.com/YOUR-USERNAME/Spectre-Suite.git](https://github.com/YOUR-USERNAME/Spectre-Suite.git)
+git clone https://github.com/YOUR-USERNAME/Spectre-Suite.git
 cd Spectre-Suite
-
 ```
 * **2. Set up a Virtual Environment (Recommended):**
 ```bash
@@ -81,10 +82,9 @@ venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
 ```
-* **3. Install Dependencies: The requirements.txt file is located in the titan-intel sub-directory.**
+* **3. Install Dependencies:**
 ```bash
-pip install -r titan-intel/requirements.txt
-pip install flask
+pip install -r requirements.txt
 ```
 * **4. Run the Application:**
 ```bash
@@ -103,7 +103,6 @@ python app.py
 Spectre-Suite/   
 |
 ├── .gitignore
-├── LICENSE
 ├── README.md
 ├── requirements.txt
 │
@@ -148,10 +147,23 @@ Spectre-Suite/
 
 ---
 
-## 📝 License
+## 🤝 Collaborative Project
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is a collaborative effort developed by a team of cybersecurity enthusiasts passionate about OSINT and reconnaissance tools. We believe in open-source development and continuous improvement.
 
+## 📞 Support & Contributions
 
+If you encounter any issues or have suggestions for improvements:
+- Open an issue on GitHub
+- Submit a pull request with enhancements
+- Share your feedback and use cases
 
+## ⚠️ Disclaimer
 
+This tool is intended for **educational purposes** and **authorized security testing only**. Always ensure you have explicit permission before scanning or gathering intelligence on any target. Unauthorized use may violate local, state, or federal laws.
+
+---
+
+<div align="center">
+  <p><b>Built with 💀 for the cybersecurity community</b></p>
+</div>

@@ -1,0 +1,13 @@
+--- Social Media Scout Report ---
+Time: 2025-11-24 12:40:29
+Target Username: madhav_garg.26
+--------------------------------------
+
+Found 6 matching accounts:
+
+[+] TryHackMe: https://tryhackme.com/p/madhav_garg.26 [Found]
+[+] HackTheBox: https://app.hackthebox.com/users/madhav_garg.26 [Found]
+[+] Kaggle: https://www.kaggle.com/madhav_garg.26 [Found]
+[+] Instagram: https://www.instagram.com/madhav_garg.26 [Found]
+[+] Pinterest: https://www.pinterest.com/madhav_garg.26 [Found]
+[+] Twitch: https://www.twitch.tv/madhav_garg.26 [Found]

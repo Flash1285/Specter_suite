@@ -1,13 +1,35 @@
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
 
 # Virtual environment
 venv/
 .venv/
 env/
+ENV/
 .env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
 # OS-specific
 .DS_Store
 Thumbs.db
+*.log
+
+# Test files
+test_*.py
+*_test.py
+
+# Reports (optional - uncomment if you don't want to track reports)
+# Dashboard/static/reports/*.txt
+
+# Old directories
+Shiganshina_Dashboard/

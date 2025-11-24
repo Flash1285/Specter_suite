@@ -5,7 +5,7 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-DASHBOARD_DIR = os.path.join(CURRENT_DIR, '..', 'Shiganshina_Dashboard', 'static', 'reports')
+DASHBOARD_DIR = os.path.join(CURRENT_DIR, '..', 'Dashboard', 'static', 'reports')
 PATHS_FILE = os.path.join(CURRENT_DIR, 'wordlists', 'common_paths.txt')
 
 def load_wordlist(filepath):
